@@ -75,6 +75,21 @@ article {
 }
 
 table {
+  float:right;
   border: solid 3px rgb(11, 77, 14);
+  margin-right: 400px;
+  margin-top: 20px;
+}
+
+table tr {
+  padding: 50px;
+  border: solid 2px rgb(23, 20, 17);
   background-color: rgb(93, 139, 33);
+}
+
+table td {
+  padding: 90px;
+  border: solid 2px rgb(23, 20, 17);
+  background-color: rgb(93, 139, 33);
+
 }
