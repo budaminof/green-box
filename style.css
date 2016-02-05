@@ -73,3 +73,8 @@ article {
   background-color: rgb(231, 22, 197);
   padding: inherit;
 }
+
+table {
+  border: solid 3px rgb(11, 77, 14);
+  background-color: rgb(93, 139, 33);
+}
