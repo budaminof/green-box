@@ -23,14 +23,21 @@
 
 .box-main {
   margin-top: 40px;
-  margin-left: 200px;
+  margin-left: 400px;
   position: relative;
 }
+
+.box-bottom {
+  margin-left: 400px;
+  position: relative;
+}
+
 
 .left{
   display: inline-block;
   height: 200px;
   width: 200px;
+
   border-radius: 5px;
   background-color: rgb(3, 138, 61);
   transition: all 2s;
@@ -68,7 +75,7 @@
 
 .right-mid:hover {
  background-color: rgb(152, 246, 144);
- transform: translate(-50px, -50px);
+ transform: translate(-50px, 50px);
 }
 
 
