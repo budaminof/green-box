@@ -22,22 +22,27 @@
 }
 
 .box-main {
-  margin-top: 40px;
+  width: 400px;
+  height: 400px;
   margin-left: 400px;
   position: relative;
+  padding: 5px;
 }
 
+/*
 .box-bottom {
   margin-left: 400px;
   position: relative;
-}
+}*/
 
 
 .left{
-  display: inline-block;
+  position: absolute;
+  display: block;
   height: 200px;
   width: 200px;
-
+  top: 0;
+  left: 0;
   border-radius: 5px;
   background-color: rgb(3, 138, 61);
   transition: all 2s;
@@ -50,9 +55,12 @@
 }
 
 .left-mid{
-  display: inline-block;
+  position: absolute;
+  display: block;
   height: 200px;
   width: 200px;
+  top: 0;
+  right: 0;
   border-radius: 5px;
   background-color: rgb(6, 77, 45);
   transition: all 2s;
@@ -64,9 +72,12 @@
 }
 
 .right-mid {
-  display: inline-block;
+  position: absolute;
+  display: block;
   height: 200px;
   width: 200px;
+  bottom: 0;
+  right: 0;
   border-radius: 5px;
   background-color: rgb(38, 71, 53);
   transition: all 2s;
@@ -75,14 +86,17 @@
 
 .right-mid:hover {
  background-color: rgb(152, 246, 144);
- transform: translate(-50px, 50px);
+ transform: translate(50px, 50px);
 }
 
 
 .right {
-  display: inline-block;
+  position: absolute;
+  display: block;
   height: 200px;
   width: 200px;
+  bottom: 0;
+  left: 0;
   border-radius: 5px;
   background-color: rgb(9, 34, 10);
   transform-origin: right top;
